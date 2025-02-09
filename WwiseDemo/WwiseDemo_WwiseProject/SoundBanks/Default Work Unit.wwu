@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{58BD8CEC-416E-4F66-AD64-523BB4282060}" SchemaVersion="123">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{58BD8CEC-416E-4F66-AD64-523BB4282060}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Main" ID="{0E078961-B4F0-4A8A-A079-D72C08B79831}">
+					<ObjectInclusionList>
+						<ObjectRef Name="E_AirConditioner" ID="{5206AA2A-F16F-400B-868A-C924E4A9990B}" WorkUnitID="{07ECEA45-39C9-4989-9961-FDE9F15A45F0}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="E_Footsteps" ID="{3BF890F2-A436-40CA-B18C-6D0DCC7BFFAD}" WorkUnitID="{07ECEA45-39C9-4989-9961-FDE9F15A45F0}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="E_Flashlight" ID="{A823D2ED-7B15-4322-BA04-E82E41233657}" WorkUnitID="{07ECEA45-39C9-4989-9961-FDE9F15A45F0}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="E_DrumLoop" ID="{2601735F-63FA-43CB-8A78-A5CBED2FD4C0}" WorkUnitID="{07ECEA45-39C9-4989-9961-FDE9F15A45F0}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="DefaultReverb" ID="{9D0CFD24-BFA8-4537-9F17-4C9B08163B04}" WorkUnitID="{6CDBBB80-A6EE-48FE-9DA5-5654FDE9E1F2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="ReverbAuxBus" ID="{92CBD66A-8D26-46CF-960D-6596A098E045}" WorkUnitID="{6CDBBB80-A6EE-48FE-9DA5-5654FDE9E1F2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="E_Siren" ID="{4D055EF5-BA97-4A86-91C1-08E1064D46B4}" WorkUnitID="{07ECEA45-39C9-4989-9961-FDE9F15A45F0}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="E_PhoneRing" ID="{9BEC3E9E-847C-4FF4-B9E6-B3752FE5DB57}" WorkUnitID="{07ECEA45-39C9-4989-9961-FDE9F15A45F0}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

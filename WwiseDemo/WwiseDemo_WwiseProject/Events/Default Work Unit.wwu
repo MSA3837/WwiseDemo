@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{07ECEA45-39C9-4989-9961-FDE9F15A45F0}" SchemaVersion="123">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{07ECEA45-39C9-4989-9961-FDE9F15A45F0}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="E_DrumLoop" ID="{2601735F-63FA-43CB-8A78-A5CBED2FD4C0}">
+					<ChildrenList>
+						<Action Name="" ID="{F03278BD-79BA-49AC-B1C3-E93BCF457F9C}" ShortID="122212433">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DrumLoop" ID="{6300C21C-91BD-444D-817E-2FD825E11ECD}" WorkUnitID="{BB410E2E-3B38-4A1A-A1A2-E7E07BF90FA2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="E_PhoneRing" ID="{9BEC3E9E-847C-4FF4-B9E6-B3752FE5DB57}">
+					<ChildrenList>
+						<Action Name="" ID="{96C3DA77-5393-40D4-B321-B92D6A04A7CE}" ShortID="1009254557">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PhoneRing" ID="{DCFD88A4-3EB0-4449-B67B-29CD0A9638D6}" WorkUnitID="{BB410E2E-3B38-4A1A-A1A2-E7E07BF90FA2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="E_Footsteps" ID="{3BF890F2-A436-40CA-B18C-6D0DCC7BFFAD}">
+					<ChildrenList>
+						<Action Name="" ID="{3AC9D133-CA24-40BC-B8F1-768151F2F113}" ShortID="667359448">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footsteps" ID="{BFE495B8-1DA9-4523-A972-84C638F9DA26}" WorkUnitID="{BB410E2E-3B38-4A1A-A1A2-E7E07BF90FA2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="E_AirConditioner" ID="{5206AA2A-F16F-400B-868A-C924E4A9990B}">
+					<ChildrenList>
+						<Action Name="" ID="{3EA52FB0-8853-47B4-BC9E-DEB01CC5B626}" ShortID="709802488">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AirConditioner" ID="{E09C0190-385E-4275-857C-A1B7359BB163}" WorkUnitID="{BB410E2E-3B38-4A1A-A1A2-E7E07BF90FA2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="E_Siren" ID="{4D055EF5-BA97-4A86-91C1-08E1064D46B4}">
+					<ChildrenList>
+						<Action Name="" ID="{595BCAF9-56EF-4E1D-8CDC-4F3FA2405AD2}" ShortID="687810038">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Siren" ID="{E148966E-62B4-4F4E-896D-D61D6E827E9D}" WorkUnitID="{BB410E2E-3B38-4A1A-A1A2-E7E07BF90FA2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="E_Flashlight" ID="{A823D2ED-7B15-4322-BA04-E82E41233657}">
+					<ChildrenList>
+						<Action Name="" ID="{56A36E3E-1AB2-4EC9-8165-C3398100F1B9}" ShortID="412333953">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Flashlight" ID="{865D2366-02FA-4717-BFCB-FF548184D479}" WorkUnitID="{BB410E2E-3B38-4A1A-A1A2-E7E07BF90FA2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

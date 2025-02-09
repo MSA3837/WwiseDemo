@@ -1,0 +1,290 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3161908922",
+    "Type": "User",
+    "GUID": "{0E078961-B4F0-4A8A-A079-D72C08B79831}",
+    "Language": "SFX",
+    "Hash": "{D211C8DF-E036-93D8-021C-F9987FDFB8E8}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
+    "ShortName": "Main",
+    "Path": "Main.bnk",
+    "Media": [
+     {
+      "Id": "114691198",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps.wav",
+      "CachePath": "3A/{3A17B8E1-6396-6F7B-263B-68FC2A051C6B}.wem"
+     },
+     {
+      "Id": "177352012",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps.wav",
+      "CachePath": "B7/{B7314CC6-0648-2543-00A9-4C41C99CDC6E}.wem"
+     },
+     {
+      "Id": "458960354",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Siren.wav",
+      "CachePath": "4B/{4BFE05D8-D1B4-6054-B448-E3F050921BC9}.wem"
+     },
+     {
+      "Id": "483869674",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps.wav",
+      "CachePath": "A5/{A5181621-76FC-F702-227B-37EC98123DF6}.wem"
+     },
+     {
+      "Id": "549878951",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FlashlightOnOff.wav",
+      "CachePath": "A3/{A3513E99-F7CE-5914-8DC3-76C3185EC9FE}.wem"
+     },
+     {
+      "Id": "588244991",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps.wav",
+      "CachePath": "23/{2342950A-D50F-292D-D896-F7E2AE34AA25}.wem"
+     },
+     {
+      "Id": "722027784",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AirConditioner.wav",
+      "CachePath": "D7/{D7A52685-FE97-7CF2-7022-05BD0BF3FE22}.wem"
+     },
+     {
+      "Id": "802556623",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "DrumLoop.wav",
+      "CachePath": "26/{26491EFC-9BBE-78F2-AF4E-86FD38A596EF}.wem"
+     },
+     {
+      "Id": "897572207",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps.wav",
+      "CachePath": "8A/{8A2D197B-FA62-BD11-0B52-3DD77436CEAC}.wem"
+     },
+     {
+      "Id": "984678481",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "PhoneRing.wav",
+      "CachePath": "1E/{1EE94FE1-4723-46BE-03F9-35A4B6AE557E}.wem"
+     }
+    ],
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "1588715066",
+       "Name": "Echoes_Linear",
+       "ObjectPath": "\\Effects\\Factory Effects\\Delay\\Echoes_Linear",
+       "GUID": "{D20F3717-EBA2-4E3A-84F8-C8BD431563FB}",
+       "LibName": "Wwise Delay",
+       "LibId": "6946819"
+      },
+      {
+       "Id": "3546444380",
+       "Name": "Big_Garage1",
+       "ObjectPath": "\\Effects\\Factory Effects\\Matrix Reverb\\Big_Garage1",
+       "GUID": "{172402A8-22F4-40FC-BE1D-5269594CB633}",
+       "LibName": "Wwise Matrix Reverb",
+       "LibId": "7536643"
+      }
+     ]
+    },
+    "Events": [
+     {
+      "Id": "1005024459",
+      "Name": "E_AirConditioner",
+      "ObjectPath": "\\Events\\Default Work Unit\\E_AirConditioner",
+      "GUID": "{5206AA2A-F16F-400B-868A-C924E4A9990B}",
+      "MaxAttenuation": "1150",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "722027784"
+       }
+      ]
+     },
+     {
+      "Id": "867648207",
+      "Name": "E_DrumLoop",
+      "ObjectPath": "\\Events\\Default Work Unit\\E_DrumLoop",
+      "GUID": "{2601735F-63FA-43CB-8A78-A5CBED2FD4C0}",
+      "MaxAttenuation": "1150",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "802556623"
+       }
+      ]
+     },
+     {
+      "Id": "3562774567",
+      "Name": "E_Flashlight",
+      "ObjectPath": "\\Events\\Default Work Unit\\E_Flashlight",
+      "GUID": "{A823D2ED-7B15-4322-BA04-E82E41233657}",
+      "MaxAttenuation": "250",
+      "DurationType": "OneShot",
+      "DurationMin": "0.04802566",
+      "DurationMax": "0.04802566",
+      "MediaRefs": [
+       {
+        "Id": "549878951"
+       }
+      ]
+     },
+     {
+      "Id": "2176190858",
+      "Name": "E_Footsteps",
+      "ObjectPath": "\\Events\\Default Work Unit\\E_Footsteps",
+      "GUID": "{3BF890F2-A436-40CA-B18C-6D0DCC7BFFAD}",
+      "MaxAttenuation": "250",
+      "DurationType": "OneShot",
+      "DurationMin": "0.4166501",
+      "DurationMax": "0.6016127",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "2385628198",
+         "Id": "3272305572",
+         "GUID": "{64082A00-823A-443C-BE3C-E055229474DC}",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "114691198"
+         },
+         {
+          "Id": "177352012"
+         },
+         {
+          "Id": "483869674"
+         },
+         {
+          "Id": "588244991"
+         },
+         {
+          "Id": "897572207"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "Id": "4097843869",
+      "Name": "E_PhoneRing",
+      "ObjectPath": "\\Events\\Default Work Unit\\E_PhoneRing",
+      "GUID": "{9BEC3E9E-847C-4FF4-B9E6-B3752FE5DB57}",
+      "MaxAttenuation": "750",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "984678481"
+       }
+      ],
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "1588715066"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "2847950820",
+      "Name": "E_Siren",
+      "ObjectPath": "\\Events\\Default Work Unit\\E_Siren",
+      "GUID": "{4D055EF5-BA97-4A86-91C1-08E1064D46B4}",
+      "MaxAttenuation": "150",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "458960354"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "463204885",
+        "Name": "ReverbAuxBus",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\ReverbAuxBus",
+        "GUID": "{92CBD66A-8D26-46CF-960D-6596A098E045}"
+       }
+      ]
+     }
+    ],
+    "Busses": [
+     {
+      "Id": "3803692087",
+      "Name": "Master Audio Bus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
+      "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
+     }
+    ],
+    "AuxBusses": [
+     {
+      "Id": "463204885",
+      "Name": "ReverbAuxBus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\ReverbAuxBus",
+      "GUID": "{92CBD66A-8D26-46CF-960D-6596A098E045}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "3546444380"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "1591283508",
+      "Name": "DefaultReverb",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\DefaultReverb",
+      "GUID": "{9D0CFD24-BFA8-4537-9F17-4C9B08163B04}"
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "2385628198",
+      "Name": "Footsteps",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps",
+      "GUID": "{5E88BE59-F0E3-4633-916A-37F8EA79ACD0}",
+      "Switches": [
+       {
+        "Id": "3272305572",
+        "Name": "Default_Surface",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps\\Default_Surface",
+        "GUID": "{64082A00-823A-443C-BE3C-E055229474DC}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{0E0BC414-7820-085A-E22A-B34DBA1BFFB6}"
+ }
+}

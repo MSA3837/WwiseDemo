@@ -1,0 +1,37 @@
+Event	ID	Name			Wwise Object Path	Notes
+	867648207	E_DrumLoop			\Default Work Unit\E_DrumLoop	
+	1005024459	E_AirConditioner			\Default Work Unit\E_AirConditioner	
+	2176190858	E_Footsteps			\Default Work Unit\E_Footsteps	
+	2847950820	E_Siren			\Default Work Unit\E_Siren	
+	3562774567	E_Flashlight			\Default Work Unit\E_Flashlight	
+	4097843869	E_PhoneRing			\Default Work Unit\E_PhoneRing	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	2385628198	Footsteps			\Default Work Unit\Footsteps	
+
+Switch	ID	Name	Switch Group			Notes
+	3272305572	Default_Surface	Footsteps			
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	463204885	ReverbAuxBus			\Default Work Unit\Master Audio Bus\ReverbAuxBus	
+	1591283508	DefaultReverb			\Default Work Unit\Master Audio Bus\DefaultReverb	
+
+Effect plug-ins	ID	Name	Type				Notes
+	1588715066	Echoes_Linear	Wwise Delay			
+	3546444380	Big_Garage1	Wwise Matrix Reverb			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	114691198	Default_Footstep_01	C:\Confidential\WwiseDemo\WwiseDemo\WwiseDemo_WwiseProject\.cache\3A\{3A17B8E1-6396-6F7B-263B-68FC2A051C6B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Default_Surface\Default_Footstep_01		87740
+	177352012	Default_Footstep_04	C:\Confidential\WwiseDemo\WwiseDemo\WwiseDemo_WwiseProject\.cache\B7\{B7314CC6-0648-2543-00A9-4C41C99CDC6E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Default_Surface\Default_Footstep_04		103200
+	458960354	Siren	C:\Confidential\WwiseDemo\WwiseDemo\WwiseDemo_WwiseProject\.cache\4B\{4BFE05D8-D1B4-6054-B448-E3F050921BC9}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Siren		1764096
+	483869674	Default_Footstep_05	C:\Confidential\WwiseDemo\WwiseDemo\WwiseDemo_WwiseProject\.cache\A5\{A5181621-76FC-F702-227B-37EC98123DF6}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Default_Surface\Default_Footstep_05		95784
+	549878951	Flashlight	C:\Confidential\WwiseDemo\WwiseDemo\WwiseDemo_WwiseProject\.cache\A3\{A3513E99-F7CE-5914-8DC3-76C3185EC9FE}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Flashlight		8568
+	588244991	Default_Footstep_03	C:\Confidential\WwiseDemo\WwiseDemo\WwiseDemo_WwiseProject\.cache\23\{2342950A-D50F-292D-D896-F7E2AE34AA25}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Default_Surface\Default_Footstep_03		75748
+	722027784	AirConditioner	C:\Confidential\WwiseDemo\WwiseDemo\WwiseDemo_WwiseProject\.cache\D7\{D7A52685-FE97-7CF2-7022-05BD0BF3FE22}.wem		\Actor-Mixer Hierarchy\Default Work Unit\AirConditioner		5292096
+	802556623	DrumLoop	C:\Confidential\WwiseDemo\WwiseDemo\WwiseDemo_WwiseProject\.cache\26\{26491EFC-9BBE-78F2-AF4E-86FD38A596EF}.wem		\Actor-Mixer Hierarchy\Default Work Unit\DrumLoop		5292144
+	897572207	Default_Footstep_02	C:\Confidential\WwiseDemo\WwiseDemo\WwiseDemo_WwiseProject\.cache\8A\{8A2D197B-FA62-BD11-0B52-3DD77436CEAC}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Default_Surface\Default_Footstep_02		88904
+	984678481	PhoneRing	C:\Confidential\WwiseDemo\WwiseDemo\WwiseDemo_WwiseProject\.cache\1E\{1EE94FE1-4723-46BE-03F9-35A4B6AE557E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PhoneRing		5292144
+
